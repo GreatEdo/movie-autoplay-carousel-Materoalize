@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- https://materializecss.com/ -->
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="header-section">
+        <a href="#" class="logo">Lorem, ipsum.</a>
+        <ul class="nav">
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content the-little-mermaid active">
+            <img src="images/the-little-mermaid-title.png" class="image-title" alt="image">
+            <h4>
+                <span>2023</span>
+                <span><i>lorem</i></span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos cum consequatur tempora sed voluptatum ad aperiam reiciendis dicta nihil hic sint, odio maiores quod repellendus laboriosam possimus atque vel! Veritatis quis magni dolore aliquid illo obcaecati impedit, molestiae officia?</p>
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+        <div class="content bg-65">
+            <img src="images/the-65-title.png" class="image-title" alt="image">
+            <h4>
+                <span>2023</span>
+                <span><i>lorem</i></span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos cum consequatur tempora sed voluptatum ad aperiam reiciendis dicta nihil hic sint, odio maiores quod repellendus laboriosam possimus atque vel! Veritatis quis magni dolore aliquid illo obcaecati impedit, molestiae officia?</p>
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+        <div class="content the-covenant">
+            <img src="images/the-covenant-title.png" class="image-title" alt="image">
+            <h4>
+                <span>2023</span>
+                <span><i>lorem</i></span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos cum consequatur tempora sed voluptatum ad aperiam reiciendis dicta nihil hic sint, odio maiores quod repellendus laboriosam possimus atque vel! Veritatis quis magni dolore aliquid illo obcaecati impedit, molestiae officia?</p>
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+        <div class="content the-black-demon">
+            <img src="images/the-black-demon-title.png" class="image-title" alt="image">
+            <h4>
+                <span>2023</span>
+                <span><i>lorem</i></span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos cum consequatur tempora sed voluptatum ad aperiam reiciendis dicta nihil hic sint, odio maiores quod repellendus laboriosam possimus atque vel! Veritatis quis magni dolore aliquid illo obcaecati impedit, molestiae officia?</p>
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+         <div class="content the-tank">
+            <img src="images/the-tank-title.png" class="image-title" alt="image">
+            <h4>
+                <span>2023</span>
+                <span><i>lorem</i></span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos cum consequatur tempora sed voluptatum ad aperiam reiciendis dicta nihil hic sint, odio maiores quod repellendus laboriosam possimus atque vel! Veritatis quis magni dolore aliquid illo obcaecati impedit, molestiae officia?</p>
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                <a href="#"><i class="fa-solid fa-plus"></i> My List</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item" onClick="changeBg('bg-little-mermaid.jpg', 'the-little-mermaid', this)"
+                data-bg="bg-little-mermaid.jpg"
+                data-title="the-little-mermaid"
+                >
+                    <img src="images/movies/the-little-mermaid.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-65.jpeg', 'bg-65', this)"
+                data-bg="bg-65.jpeg"
+                data-title="bg-65">
+                    <img src="images/movies/65.jpg" alt="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-covenant.jpeg', 'the-covenant', this)"
+                data-bg="bg-the-covenant.jpeg"
+                data-title="the-covenant">
+                    <img src="images/movies/the-covenant.jpg" alt="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-black-demon.jpeg', 'the-black-demon', this)"
+                data-bg="bg-the-black-demon.jpeg"
+                data-title="the-black-demon">
+                    <img src="images/movies/the-black-demon.jpg" alt="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-the-tank.jpeg', 'the-tank', this)"
+                data-bg="bg-the-tank.jpeg"
+                data-title="the-tank">
+                    <img src="images/movies/the-tank.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <a href="#" class="play" onclick="toggleVideo();"><i class="fa-regular fa-circle-play"></i> Watch trailer</a>
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        
+    </div>
+
+    <div class="tailer">
+        <video src="video/tailer.mp4" muted controls="true" autoplay="true">
+
+        </video>
+        <img src="images/close.png" alt="" class="close" onclick="toggleVideo();">
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- https://materializecss.com/ -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="materialize/materialize/js/materialize.js"></script>
+    <script src="materialize/materialize/js/materialize.min.js"></script>
+
+
+    <script src="script.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+    </script> -->
+</body>
+
+</html>
